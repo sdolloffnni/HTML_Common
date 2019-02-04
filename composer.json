@@ -22,11 +22,14 @@
         }
     ],
     "autoload": {
-        "classmap": [
-            "./"
-        ]
+        "psr-0": {
+            "HTML": "./"
+        }
     },
     "description": "More info available on: http://pear.php.net/package/HTML_Common",
+    "include-path": [
+        "./"
+    ],
     "license": "PHP License",
     "name": "pear/html_common",
     "support": {
