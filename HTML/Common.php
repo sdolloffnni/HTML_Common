@@ -83,6 +83,10 @@ class HTML_Common
         $this->setTabOffset($tabOffset);
     } // end constructor
 
+    function HTML_Common($attributes = null, $tabOffset = 0)
+    {
+        self::__construct($attributes, $tabOffset);
+    }
     /**
      * Returns the current API version
      * @access   public
